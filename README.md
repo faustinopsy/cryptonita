@@ -1,4 +1,4 @@
-# Crypto Class Documentation
+# CryptoPHP Documentação
 
 ## Indice
 - [Descrição](#descrição)

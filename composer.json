@@ -1,0 +1,17 @@
+{
+    "name": "flash/cryptonita",
+    "description": "classe que criptografa e descriptografa qualquer string para atender legislação especifica, sendo possivel criptografar todos os campos a serem armazenadas no banco de dados sendo assim só descriptografado na aplicação.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "faustinopsy",
+            "email": "rodrigohipnose@gmail.com"
+        }
+    ],
+    "require": {}
+}

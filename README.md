@@ -1,6 +1,6 @@
 # Crypto Class Documentation
 
-## Table of Contents
+## Indice
 - [Descrição](#descrição)
 - [Início Rápido](#início-rápido)
   - [Pré-requisitos](#pré-requisitos)

@@ -16,6 +16,7 @@
 
 ## Descrição
 A classe `Crypto` é responsável por encriptar e descriptar informações usando a criptografia OpenSSL.
+(criptografia simétrica) como o proposito exclusivo de esconder as informações no banco de dados e usar a mesma chave para mostrar os dados na aplicação
 
 ---
 

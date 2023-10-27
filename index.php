@@ -12,7 +12,7 @@ $data=[$nome,$email,$likedin,$site];
 $criptografado=[];
 // resultado criptografado hidden(string, 1=criptgrafa)
 foreach ($data as $key => $value) {
-    $criptografado []= $cripto->hidden($value,1);
+    $criptografado []= $cripto->hidden($value);
 }
 echo "-------Resultado Criptografia---------------------";
 var_dump($criptografado);
@@ -20,7 +20,7 @@ echo "--------------------------------------------------";
 // resultado Descriptografado hidden(string, 2=descriptgrafa)
 $descriptografado=[];
 foreach ($criptografado as $key => $value) {
-    $descriptografado[]= $cripto->hidden($value,2);
+    $descriptografado[]= $cripto->show($value);
 }
 echo "------Resultado Descriptografia-------------------";
 var_dump($descriptografado);

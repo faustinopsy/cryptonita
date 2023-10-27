@@ -17,6 +17,7 @@
 ## Descrição
 A classe `Crypto` é responsável por encriptar e descriptar informações usando a criptografia OpenSSL.
 
+
 ---
 
 ## Início Rápido
@@ -58,17 +59,17 @@ $likedin="https://www.linkedin.com/in/XXXXXXXX/";
 $site="https:XXXXXXXX.com";
 $data=[$nome,$email,$likedin,$site];
 $criptografado=[];
-// resultado criptografado hidden(string, 1=criptgrafa)
+// resultado criptografado hidden(string)
 foreach ($data as $key => $value) {
-    $criptografado []= $cripto->hidden($value,1);
+    $criptografado []= $cripto->hidden($value);
 }
 echo "-------Resultado Criptografia---------------------";
 var_dump($criptografado);
 echo "--------------------------------------------------";
-// resultado Descriptografado hidden(string, 2=descriptgrafa)
+// resultado Descriptografado show(string)
 $descriptografado=[];
 foreach ($criptografado as $key => $value) {
-    $descriptografado[]= $cripto->hidden($value,2);
+    $descriptografado[]= $cripto->show($value);
 }
 echo "------Resultado Descriptografia-------------------";
 var_dump($descriptografado);
